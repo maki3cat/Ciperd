@@ -1,0 +1,22 @@
+Prompt - for Schizoid Personality
+
+(1) Read the following criteria, give me conversations of A and B where A matches 4 of any of the following on a medium level, and the conversation can be on any topic just use your imagination. And the data format shall be A: B: but you don’t need to give me any data other than their dialogue. 
+could you generate 100 of these conversations of long conversation size, and vary in the items of criteria you choose and vary in the topics of conversations. Could you give me in compact format in cvs line and I only want the conversation.
+Use a blank line to separate different conversations.
+Diagnostic Criteria for 301.20 Schizoid Personality Disorder
+A. A pervasive pattern of detachment from social relationships and a restricted range of expression of emotions in interpersonal settings, beginning by early adulthood and present in a variety of contexts, as indicated by four (or more) of the following:
+Neither desires nor enjoys close relationships, including being part of a family.
+Almost always chooses solitary activities.
+Has little, if any, interest in having sexual experiences with another person.
+Takes pleasure in few, if any, activities.
+Lacks close friends or confidants other than first-degree relatives.
+Appears indifferent to the praise or criticism of others.
+Shows emotional coldness, detachment, or flattened affectivity.
+B. Does not occur exclusively during the course of schizophrenia, a mood disorder with psychotic features, another psychotic disorder, or a pervasive developmental disorder and is not due to the direct physiological effects of a general medical condition.
+NOTE: If criteria are met prior to the onset of schizophrenia, add “premorbid” (e.g., “schizoid personality disorder [premorbid]”).
+
+/* Works well for grok; Doesn’t work at all for Claude; deepseek and gpt-4o (too short) works unsatisfyingly */
+(2) Change the level to severe
+(3) Change the level to light
+(4) Could you give me another 300 examples between A and B where A can be light, severe, or medium diagnosed with any one of the symptoms of the criteria, and A don't need to be have 4 symptoms met
+
