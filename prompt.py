@@ -37,8 +37,10 @@ def get_random_trait() -> tuple:
     return traits, labels
 
 
-format_prompt = "And only generate the conversation with the A: and B: at the beginning of each sentence, " \
-    "no other labels and boilerplate are needed, and put the data in one line"
+format_prompt = ("And only generate the conversation with the A: and B:" +
+                 " at the beginning of each sentence, " +
+                 "no other labels and boilerplate are needed," +
+                 "and put the data in one line")
 
 
 def generate_prompt() -> str:
@@ -55,5 +57,7 @@ def generate_prompt() -> str:
 
 if __name__ == "__main__":
     # Test the functions
+    print(generate_prompt())
+    print(generate_prompt())
     print(generate_prompt())
     print(generate_prompt())
