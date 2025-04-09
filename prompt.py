@@ -57,7 +57,6 @@ def generate_prompt() -> str:
 
 if __name__ == "__main__":
     # Test the functions
-    print(generate_prompt())
-    print(generate_prompt())
-    print(generate_prompt())
-    print(generate_prompt())
+    prompt, labels = generate_prompt()
+    print(f"{labels}")
+    print(f"{prompt}")
