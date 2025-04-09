@@ -50,13 +50,16 @@ def generate_prompt() -> str:
     prompt = "generate a conversation between A and B about the topic "
     prompt += get_random_topic()
     traits, labels = get_random_trait()
-    prompt += f". A has the following traits: {traits}."
+    if len(traits) == 0:
+        prompt += ". A has no peronsality disorder traits and they are mentally healthy people."
+    else:
+        prompt += f". A has the following traits: {traits}."
     prompt += format_prompt
     return prompt, labels
 
 
 if __name__ == "__main__":
     # Test the functions
-    prompt, labels = generate_prompt()
-    print(f"{labels}")
-    print(f"{prompt}")
+    for i in range(10):
+        prompt, labels = generate_prompt()
+        print(f"{labels} # {prompt}")
