@@ -1,7 +1,7 @@
 
 import random
-from topics import conversation_topics
-from traits import (
+from generation.topics import conversation_topics
+from generation.traits import (
     combinations, randget_schizoid_trait,
     randget_narci_trait, randget_avoid_trait)
 
@@ -51,7 +51,10 @@ def generate_prompt() -> str:
     prompt += get_random_topic()
     traits, labels = get_random_trait()
     if len(traits) == 0:
-        prompt += ". A has no peronsality disorder traits and they are mentally healthy people."
+        prompt += (
+            ". A has no peronsality disorder traits and they are "
+            "mentally healthy people."
+        )
     else:
         prompt += f". A has the following traits: {traits}."
     prompt += format_prompt
