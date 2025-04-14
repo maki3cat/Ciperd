@@ -13,6 +13,7 @@ model = DistilBertModel.from_pretrained(
 passages = [
     "The quick brown fox jumps over the lazy dog.",
     "Machine learning is transforming the world of technology."
+    # "The stupid dog jumps over the quick brown fox.",
 ]
 
 # Function to get DistilBERT embedding (from previous response)

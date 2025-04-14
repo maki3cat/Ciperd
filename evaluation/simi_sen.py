@@ -1,7 +1,8 @@
 from sentence_transformers import SentenceTransformer
 
 # 1. Load a pretrained Sentence Transformer model
-model = SentenceTransformer("all-MiniLM-L6-v2")
+model = SentenceTransformer(
+    "all-MiniLM-L6-v2", token="")
 
 # The sentences to encode
 sentences = [
