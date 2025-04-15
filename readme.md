@@ -1,14 +1,29 @@
-## Synthetic Corpus of Conversations from Individuals with Personality Disorders
+## Ciperd: Conversations (C) from Individuals(I) with Personality(Per) Disorders(D)
 
-![alt text](img.jpg "The 3 most popular types of personality disorders.")
+a synthetic dataset
+
+<!-- 
+![alt text](img/ciperd2.jpg "The 3 most popular types of personality disorders."){style="width:500px;"} -->
+
+<img src="img/ciperd2.jpg" alt="The 3 most popular types of personality disorders." width="350">
 
 ## DataSets
-- **dataset_1**: using LLMs, using prompt-v1, one prompt, hundreds of data
-- **dataset_2**: using LLMs, using prompt-v2, in format of (label, prompt, data)
-- **dataset_3**: using fine-tuned small LMs; (WIP)
+| Name      | Explanation                                         | Number of Tokens | Size  | Number of Documents |
+| --------- | --------------------------------------------------- | ---------------- | ----- | ------------------- |
+| dataset_1 | Using LLMs, prompt-v1, one prompt, hundreds of data | \-               | 532KB | 1800                |
+| dataset_2 | Using LLMs, prompt-v2, format (label, prompt, data) | \-               | 108K  | 80                  |
+| dataset_3 | Using fine-tuned small LMs; (WIP)                   | \-               | \-    | \-                  |
 
 <br>
 
-![alt text](img_diversity.jpg "Evaluation Diversity")
+<!-- ![alt text](img/img_diversity.jpg "Evaluation Diversity") -->
 
 ## Evaluation
+
+### 1) Evaluation of Diversity
+
+<img src="img/img_diversity.jpg" alt="Evaluation of Diversity." width="550">
+
+### 2) Evaluation of Faithfulness
+
+### 3) Evaluation of Impacts
