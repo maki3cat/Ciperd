@@ -1,11 +1,14 @@
 ## Synthetic Corpus of Conversations from Individuals with Personality Disorders
 
-<img src="img.jpg" alt="My Image" align="right" width="350">
-
+![alt text](img.jpg "The 3 most popular types of personality disorders.")
 
 ## DataSets
-- dataset_1: using LLMs, using prompt-v1, one promplt, hundreds of data
-- dataset_2: using LLMs, using prompt-v2, in format of (label, prompt, data)
-- dataset_3: using fine-tuned small LMs; (WIP)
+- **dataset_1**: using LLMs, using prompt-v1, one prompt, hundreds of data
+- **dataset_2**: using LLMs, using prompt-v2, in format of (label, prompt, data)
+- **dataset_3**: using fine-tuned small LMs; (WIP)
+
+<br>
+
+![alt text](img_diversity.jpg "Evaluation Diversity")
 
 ## Evaluation
