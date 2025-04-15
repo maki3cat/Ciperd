@@ -1,6 +1,6 @@
 ## Ciperd: Conversations (C) from Individuals(I) with Personality(Per) Disorders(D)
 
-a synthetic dataset
+A SYNTHETIC DATASET
 
 <!-- 
 ![alt text](img/ciperd2.jpg "The 3 most popular types of personality disorders."){style="width:500px;"} -->
