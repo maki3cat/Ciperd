@@ -1,7 +1,7 @@
 
 import random
-from generation.topics import conversation_topics
-from generation.traits import (
+from topics import conversation_topics
+from traits import (
     combinations, randget_schizoid_trait,
     randget_narci_trait, randget_avoid_trait)
 
