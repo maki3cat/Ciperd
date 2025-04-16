@@ -13,9 +13,6 @@ def calculate_tokens(file_path):
     return len(tokens)
 
 
-# calculate_tokens("data_2/prompt.txt")
-
-
 # read every file in dir data_1, calcualte the token
 
 
@@ -23,12 +20,13 @@ def calculate_tokens_dir(directory):
     total_tokens = 0
     for filename in os.listdir(directory):
         file_path = os.path.join(directory, filename)
-
-        # Skip non-files (just in case)
+        if file_path.endswith("py"):
+            continue
         if not os.path.isfile(file_path):
             continue
-        calculate_tokens(file_path)
+        total_tokens += calculate_tokens(file_path)
     print(f"\n🔢 Total tokens in directory '{directory}': {total_tokens}")
 
 
 calculate_tokens_dir("data_1")
+calculate_tokens_dir("data_2")

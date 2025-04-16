@@ -1,5 +1,6 @@
 ## Ciperd: Conversations (C) from Individuals(I) with Personality(Per) Disorders(D)
 
+牧猫犬项目
 A SYNTHETIC DATASET
 
 <!-- 
@@ -18,10 +19,12 @@ A SYNTHETIC DATASET
 <img src="img/ciperd2.jpg" alt="The 3 most popular types of personality disorders." width="350">
 
 ## DataSets
+Progress: ▓░░░░░░░ 1% 20Million Tokens
+
 | Name      | Explanation                                         | Number of Tokens | Size  | Number of Documents |
 | --------- | --------------------------------------------------- | ---------------- | ----- | ------------------- |
-| dataset_1 | Using LLMs, prompt-v1, one prompt, hundreds of data | 171,127          | 532KB | 1800                |
-| dataset_2 | Using LLMs, prompt-v2, format (label, prompt, data) | 18,183           | 108K  | 80                  |
+| dataset_1 | Using LLMs, prompt-v1, one prompt, hundreds of data | 170,626          | 532KB | 1800                |
+| dataset_2 | Using LLMs, prompt-v2, format (label, prompt, data) | 31,827           | 132KB | 100                 |
 | dataset_3 | Using fine-tuned small LMs; (WIP)                   | \-               | \-    | \-                  |
 
 <br>
@@ -32,7 +35,7 @@ A SYNTHETIC DATASET
 
 ### 1) Evaluation of Diversity
 
-<img src="img/img_diversity.jpg" alt="Evaluation of Diversity." width="550">
+<img src="img/img_diversity.jpg" alt="Evaluation of Diversity." width="850">
 
 ### 2) Evaluation of Faithfulness
 
