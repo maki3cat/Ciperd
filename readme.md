@@ -30,7 +30,7 @@ Progress: ▓▓▓▓▓▓▓▓▓ 100% (1 Million Tokens)
 | ---------- | --------------------------------------------------- | ---------------- | ----- | ------------------- |
 | dataset_1  | Using LLMs, prompt-v1, one prompt, hundreds of data | 170,626          | 532KB | 1800                |
 | dataset_2a | LLMs, prompt-v2, format (label, prompt, data)       | 31,827           | 132KB | 100                 |
-| dataset_2b | Gemini-API, prompt-v2, format (label, prompt, data) |                  | 3MB   | 100                 |
+| dataset_2b | Gemini-API, prompt-v2, format (label, prompt, data) | 885,730          | 3.3MB | 100                 |
 | dataset_3  | Using fine-tuned small LMs; (WIP)                   | \-               | \-    | \-                  |
 
 <br>

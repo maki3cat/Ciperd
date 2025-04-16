@@ -10,11 +10,6 @@ def one_file(path, prompt_file, data_file):
                     count += 1
                     line = line.strip()
                     line = line.strip("\n")
-                    if len(line) <= 1 and len(oneline_data) > 0:
-                        flush(oneline_data, df)
-                        oneline_data = []
-                        data_count += 1
-                        continue
                     if len(line) <= 1:
                         continue
                     if line.strip().startswith('['):
@@ -30,11 +25,13 @@ def one_file(path, prompt_file, data_file):
                 flush(oneline_data, df)
                 oneline_data = []
                 data_count += 1
-    print(f"Prompt count: {prompt_count}, Data count: {data_count}")
+    print(
+        f"The file is: {prompt_file},"
+        f"Prompt count: {prompt_count}, Data count: {data_count}")
 
 
 def flush(resp_lines, df):
-    print("Flushing lines", resp_lines, len(resp_lines))
+    # print("Flushing lines", resp_lines, len(resp_lines))
     df.write(("".join(resp_lines)).strip()+"\n")
 
 

@@ -16,11 +16,13 @@ def calculate_tokens(file_path):
 # read every file in dir data_1, calcualte the token
 
 
-def calculate_tokens_dir(directory):
+def calculate_tokens_dir(directory, ext=""):
     total_tokens = 0
     for filename in os.listdir(directory):
         file_path = os.path.join(directory, filename)
         if file_path.endswith("py"):
+            continue
+        if ext and not filename.endswith(ext):
             continue
         if not os.path.isfile(file_path):
             continue
@@ -28,5 +30,6 @@ def calculate_tokens_dir(directory):
     print(f"\n🔢 Total tokens in directory '{directory}': {total_tokens}")
 
 
-calculate_tokens_dir("data_1")
-calculate_tokens_dir("data_2")
+# calculate_tokens_dir("data_1")
+# calculate_tokens_dir("data_2a")
+calculate_tokens_dir("data_2b", "data.txt")
