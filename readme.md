@@ -1,23 +1,8 @@
 ## Ciperd: Conversations (C) from Individuals(I) with Personality(Per) Disorders(D)
 
-牧猫犬项目
-A SYNTHETIC DATASET
+A SYNTHETIC DATASET: Ciperd
 
-<!-- 
-![alt text](img/ciperd2.jpg "The 3 most popular types of personality disorders."){style="width:500px;"} -->
-
-### Todos
-
-#### clear part
-- [ ] (dataset) keep accumulating gemini data, run diversity check
-- [ ] (dataset) sft t5 as a small model for this using gemini seed data
-
-#### shall understand these to a detailed level
-- [ ] (principle and toolkit) build a model for the purpose of evaluation the data quality and make decisions on this model (inspiration from Dolma, the design principle is based on evidence and the evaluation is the evidence)
-- [ ] (tool) curation: mixing (up-sampling/down-sampling/dedup/decontamination), but after the dataset is large enough
-- [ ] (tool) filtering: build a scoring tool for this domain?
-- [ ] (data ablation) a small model of 1B can do that 
-
+Pronounced as “kæhprd”
 
 <img src="img/ciperd2.jpg" alt="The 3 most popular types of personality disorders." width="350">
 
@@ -52,3 +37,16 @@ a conversation between A and B where A has labels of [0, 1, 1] which means A is 
 ### 2) Evaluation of Faithfulness
 
 ### 3) Evaluation of Impacts
+
+## Todos
+
+### clear part
+- [x] (dataset) keep accumulating gemini data, run diversity check
+- [ ] (dataset) sft t5 as a small model for this using gemini seed data
+
+### shall understand these to a detailed level
+- [ ] (principle and toolkit) build a model for the purpose of evaluation the data quality and make decisions on this model (inspiration from Dolma, the design principle is based on evidence and the evaluation is the evidence)
+- [ ] (tool) curation: mixing (up-sampling/down-sampling/dedup/decontamination), but after the dataset is large enough
+- [ ] (tool) filtering: build a scoring tool for this domain?
+- [ ] (data ablation) a small model of 1B can do that 
+

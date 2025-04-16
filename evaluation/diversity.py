@@ -46,21 +46,23 @@ def get_similarity(conversations):
 
 # Base directory
 # base_dir = ["data_1", "data_2a", "data_2b"]
-base_dir = ["dataset"]
+base_dir = "dataset"
 x_label = []
 y_label = []
-for dir in base_dir:
+for dir in os.listdir(base_dir):
+    dir = os.path.join(base_dir, dir)
+    if os.path.isfile(dir):
+        continue
     print(f"Processing {dir}")
     for file in os.listdir(dir):
         path = os.path.join(dir, file)
-        print(f"Processing {path}, is file:{os.path.isfile(path)}")
         if not os.path.isfile(path):
             print(f"Skip file {path}")
             continue
         if file.endswith("data.txt"):
-            conv = read_sample(300, path)
+            conv = read_sample(100000, path)
             avg = get_similarity(conv)
-            print(f"{path}: {avg}")
+            print(f"similarity {path}: {avg}")
             x_label.append(path)
             y_label.append(avg)
 # sort the x_label and y_label by y_label
