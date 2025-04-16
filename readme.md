@@ -8,9 +8,12 @@ A SYNTHETIC DATASET
 
 ### Todos
 
+#### clear part
+- [ ] (dataset) keep accumulating gemini data, run diversity check
+- [ ] (dataset) sft t5 as a small model for this using gemini seed data
+
+#### shall understand these to a detailed level
 - [ ] (principle and toolkit) build a model for the purpose of evaluation the data quality and make decisions on this model (inspiration from Dolma, the design principle is based on evidence and the evaluation is the evidence)
-- [ ] (dataset) according to scale law, how many tokens we need for this corpus at least? (1 million*20 = 20 mililon as minimum requirement)
-- [ ] (dataset) have multiple models of different type to generate data?
 - [ ] (tool) curation: mixing (up-sampling/down-sampling/dedup/decontamination), but after the dataset is large enough
 - [ ] (tool) filtering: build a scoring tool for this domain?
 - [ ] (data ablation) a small model of 1B can do that 
@@ -19,13 +22,14 @@ A SYNTHETIC DATASET
 <img src="img/ciperd2.jpg" alt="The 3 most popular types of personality disorders." width="350">
 
 ## DataSets
-Progress: ▓░░░░░░░ 1% 20Million Tokens
+Progress: ▓░░░░░░░ 5% 20Million Tokens
 
-| Name      | Explanation                                         | Number of Tokens | Size  | Number of Documents |
-| --------- | --------------------------------------------------- | ---------------- | ----- | ------------------- |
-| dataset_1 | Using LLMs, prompt-v1, one prompt, hundreds of data | 170,626          | 532KB | 1800                |
-| dataset_2 | Using LLMs, prompt-v2, format (label, prompt, data) | 31,827           | 132KB | 100                 |
-| dataset_3 | Using fine-tuned small LMs; (WIP)                   | \-               | \-    | \-                  |
+| Name       | Explanation                                         | Number of Tokens | Size  | Number of Documents |
+| ---------- | --------------------------------------------------- | ---------------- | ----- | ------------------- |
+| dataset_1  | Using LLMs, prompt-v1, one prompt, hundreds of data | 170,626          | 532KB | 1800                |
+| dataset_2a | LLMs, prompt-v2, format (label, prompt, data)       | 31,827           | 132KB | 100                 |
+| dataset_2b | Gemini-API, prompt-v2, format (label, prompt, data) | 31,827           | 132KB | 100                 |
+| dataset_3  | Using fine-tuned small LMs; (WIP)                   | \-               | \-    | \-                  |
 
 <br>
 
