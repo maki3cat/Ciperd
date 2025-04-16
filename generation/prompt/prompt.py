@@ -1,6 +1,6 @@
 
 import random
-from topics import conversation_topics
+from topics import conversation_topics, conversation_topics_2
 from traits import (
     combinations, randget_schizoid_trait,
     randget_narci_trait, randget_avoid_trait)
@@ -10,6 +10,12 @@ def get_random_topic() -> str:
     n = len(conversation_topics)
     random_index = random.randint(0, n - 1)
     return conversation_topics[random_index]
+
+
+def get_random_topic2() -> str:
+    n = len(conversation_topics_2)
+    random_index = random.randint(0, n - 1)
+    return conversation_topics_2[random_index]
 
 
 def get_random_trait() -> tuple:
@@ -43,12 +49,12 @@ format_prompt = ("And only generate the conversation with the A: and B:" +
                  "and put the data in one line")
 
 
-def generate_prompt() -> str:
+def generate_prompt(topic_fuc=get_random_topic2) -> str:
     """
     Generates a prompt based on the random topic and traits.
     """
     prompt = "generate a conversation between A and B about the topic "
-    prompt += get_random_topic()
+    prompt += topic_fuc()
     traits, labels = get_random_trait()
     if len(traits) == 0:
         prompt += (

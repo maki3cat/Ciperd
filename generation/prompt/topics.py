@@ -1,3 +1,37 @@
+
+conversation_topics_2 = [
+    "Their day-to-day lives and routines",
+    "Work or school experiences and challenges",
+    "Family members and relationships",
+    "Romantic relationships and dating",
+    "Other friendships and social circles",
+    "Hobbies and interests",
+    "Movies, TV shows, music, and books they're enjoying",
+    "Weekend plans and upcoming events",
+    "Travel experiences and future travel ideas",
+    "Personal goals and aspirations",
+    "Current events and news",
+    "Funny or interesting anecdotes and stories",
+    "Problems they're facing and seeking advice on",
+    "Things they are grateful for",
+    "Shared memories and reminiscing about the past",
+    "Health and well-being",
+    "Financial situations and concerns",
+    "Philosophical or thought-provoking ideas",
+    "Things they learned recently",
+    "Their pets",
+    "Local happenings and community news",
+    "Food and restaurants they've tried or want to try",
+    "Sports and games",
+    "Technology and gadgets",
+    "Their dreams and ambitions",
+    "Things that are making them happy or stressed",
+    "Advice on various topics",
+    "Jokes and humor",
+    "Mutual friends and their lives",
+    "Things they are looking forward to"
+]
+
 conversation_topics = [
     # Everyday Life & Casual Conversations
     "Hobbies and interests",
