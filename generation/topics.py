@@ -203,7 +203,3 @@ conversation_topics = [
     "The power of language in shaping thought",
     "Education systems around the world"
 ]
-
-# Example usage: Print all topics
-# for topic in conversation_topics:
-#     print(topic)

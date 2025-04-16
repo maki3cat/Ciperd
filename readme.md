@@ -22,13 +22,15 @@ A SYNTHETIC DATASET
 <img src="img/ciperd2.jpg" alt="The 3 most popular types of personality disorders." width="350">
 
 ## DataSets
-Progress: ▓░░░░░░░ 5% 20Million Tokens
+For Fine-tuning BertForSequenceClassification with 110M parameters, we probably requires > 1M tokens;
+Progress: ▓▓▓▓▓▓▓▓▓ 100% (1 Million Tokens)
+
 
 | Name       | Explanation                                         | Number of Tokens | Size  | Number of Documents |
 | ---------- | --------------------------------------------------- | ---------------- | ----- | ------------------- |
 | dataset_1  | Using LLMs, prompt-v1, one prompt, hundreds of data | 170,626          | 532KB | 1800                |
 | dataset_2a | LLMs, prompt-v2, format (label, prompt, data)       | 31,827           | 132KB | 100                 |
-| dataset_2b | Gemini-API, prompt-v2, format (label, prompt, data) | 31,827           | 132KB | 100                 |
+| dataset_2b | Gemini-API, prompt-v2, format (label, prompt, data) |                  | 3MB   | 100                 |
 | dataset_3  | Using fine-tuned small LMs; (WIP)                   | \-               | \-    | \-                  |
 
 <br>
