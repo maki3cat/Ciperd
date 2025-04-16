@@ -20,8 +20,8 @@ A SYNTHETIC DATASET
 ## DataSets
 | Name      | Explanation                                         | Number of Tokens | Size  | Number of Documents |
 | --------- | --------------------------------------------------- | ---------------- | ----- | ------------------- |
-| dataset_1 | Using LLMs, prompt-v1, one prompt, hundreds of data | \-               | 532KB | 1800                |
-| dataset_2 | Using LLMs, prompt-v2, format (label, prompt, data) | \-               | 108K  | 80                  |
+| dataset_1 | Using LLMs, prompt-v1, one prompt, hundreds of data | 171,127          | 532KB | 1800                |
+| dataset_2 | Using LLMs, prompt-v2, format (label, prompt, data) | 18,183           | 108K  | 80                  |
 | dataset_3 | Using fine-tuned small LMs; (WIP)                   | \-               | \-    | \-                  |
 
 <br>
