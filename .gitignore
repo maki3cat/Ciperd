@@ -1,3 +1,16 @@
-__pycache__/*
-*/__pycache__
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Token or sensitive files
+*.token
 .token
+
+# Temporary files
+*~
+
+# Optional: Other common ignores
+.env
+venv/
+*.log
