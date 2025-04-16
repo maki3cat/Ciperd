@@ -5,6 +5,16 @@ A SYNTHETIC DATASET
 <!-- 
 ![alt text](img/ciperd2.jpg "The 3 most popular types of personality disorders."){style="width:500px;"} -->
 
+### Todos
+
+- [ ] (principle and toolkit) build a model for the purpose of evaluation the data quality and make decisions on this model (inspiration from Dolma, the design principle is based on evidence and the evaluation is the evidence)
+- [ ] (dataset) according to scale law, how many tokens we need for this corpus at least? (1 million*20 = 20 mililon as minimum requirement)
+- [ ] (dataset) have multiple models of different type to generate data?
+- [ ] (tool) curation: mixing (up-sampling/down-sampling/dedup/decontamination), but after the dataset is large enough
+- [ ] (tool) filtering: build a scoring tool for this domain?
+- [ ] (data ablation) a small model of 1B can do that 
+
+
 <img src="img/ciperd2.jpg" alt="The 3 most popular types of personality disorders." width="350">
 
 ## DataSets
