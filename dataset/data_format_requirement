@@ -1,0 +1,3 @@
+the file name of conversations shall be in "*data.txt"
+the label and prompt shall be in "*prompt.txt" in the format of "[0, 0, 1] # prompt content"
+each subdata set shall come from one way of data generation, and the cleaned data txt files shall be in the first level of the subdata directory
