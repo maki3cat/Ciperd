@@ -1,5 +1,9 @@
+prompt_count, data_count = 0, 0
+
+
 def one_file(path, prompt_file, data_file):
-    prompt_count, data_count = 0, 0
+    # prompt_count, data_count = 0, 0
+    global prompt_count, data_count
     with open(prompt_file, 'a') as pf:
         with open(data_file, 'a') as df:
             oneline_data = []
@@ -40,6 +44,6 @@ def flush(resp_lines, df):
 # one_file("data_2b/data2_gemini_api.txt", prompt_file, data_file)
 
 for i in range(1, 8):
-    prompt_file = f"data_2b/gemini_{i}_prompt.txt"
-    data_file = f"data_2b/gemini_{i}_data.txt"
+    prompt_file = "data_2b/gemini_prompt.txt"
+    data_file = "data_2b/gemini_data.txt"
     one_file(f"data_2b/raw/data2_gemini_api_{i}.txt", prompt_file, data_file)
