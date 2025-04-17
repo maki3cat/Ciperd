@@ -32,4 +32,4 @@ def calculate_tokens_dir(directory, ext=""):
 
 # calculate_tokens_dir("data_1")
 # calculate_tokens_dir("data_2a")
-calculate_tokens_dir("data_2b", "data.txt")
+calculate_tokens_dir("dataset/data_2b", "data.txt")

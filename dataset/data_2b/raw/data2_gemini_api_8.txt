@@ -928,6 +928,3 @@ A: Not really. She sheds a lot. We have to vacuum every day.
 B: Oh, the shedding! I know all about that. Sunny's a shedding machine. But the love they give makes it all worthwhile, right?
 A: I suppose so. It's company, I guess.
 B: Exactly! They're great companions. I don't know what I'd do without Sunny.
-
-
-[0, 0, 0] # generate a conversation between A and B about the topic Philosophical or thought-provoking ideas. A has no peronsality disorder traits and they are mentally healthy people.And only generate the conversation with the A: and B: at the beginning of each sentence, no other labels and boilerplate are needed,and put the data in one line

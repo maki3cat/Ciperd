@@ -43,7 +43,7 @@ def flush(resp_lines, df):
 # data_file = "data_2b/gemini_1_data.txt"
 # one_file("data_2b/data2_gemini_api.txt", prompt_file, data_file)
 
-for i in range(1, 8):
+for i in range(1, 9):
     prompt_file = "data_2b/gemini_prompt.txt"
     data_file = "data_2b/gemini_data.txt"
     one_file(f"data_2b/raw/data2_gemini_api_{i}.txt", prompt_file, data_file)

@@ -9,7 +9,7 @@ model = "gemini-2.0-flash-001"
 config = {"response_modalities": ["TEXT"]}
 
 if __name__ == "__main__":
-    with open("data2_gemini_api_7.txt", "a") as f:
+    with open("data2_gemini_api_9.txt", "a") as f:
         for id in range(1000):
             print(f"Generating {id}...")
             prompt, label = generate_prompt()
