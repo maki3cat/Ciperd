@@ -2,7 +2,7 @@ import time
 from google import genai
 from prompt import generate_prompt
 
-api_key = "AIzaSyCtn6XofXywVlS3WAMQB8-JJQVvFvo2bLc"
+api_key = ""
 client = genai.Client(api_key=api_key)
 # model = "gemini-2.0-flash-live-001"
 model = "gemini-2.0-flash-001"

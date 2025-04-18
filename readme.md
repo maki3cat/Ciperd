@@ -22,7 +22,13 @@ _The number of tokens is counted using pretrained tokenizer of "google-t5/t5-sma
 
 <br>
 
-### One Sample Piece
+## Data Generation: Prompt Design (V2)
+
+### Promplt Engineering
+
+![alt text](img/prompt_engineering.jpg "prompt engineering")
+
+### An Example
 
 a conversation between A and B where A is a Narcissist
 
